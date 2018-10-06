@@ -1,0 +1,7 @@
+{
+  "name": "MiauMusicBeta",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

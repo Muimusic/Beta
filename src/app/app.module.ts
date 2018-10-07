@@ -6,15 +6,21 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
+import { Timbre1Page } from '../pages/timbre1/timbre1';
+//import { Timbre1PageModule } from '../pages/timbre1/timbre1.module';
+
 
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    HomePage,
+  
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp),
+    Timbre1Page
+    //Timbre1PageModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
